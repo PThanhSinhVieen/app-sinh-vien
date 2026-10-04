@@ -1,5 +1,5 @@
 ## Mô hình kết nói app Mobile vs Vercel
-'''
+```text
 [Điện thoại người dùng]                  [Đám mây Vercel]
 ┌─────────────────────┐                 ┌──────────────────────┐
 │  Flutter Mobile App │  --(REST API)-->│  Backend (Node.js)   │
@@ -8,7 +8,7 @@
                                                     │
                                                     ▼
                                          [Database (Supabase/Neon)]
+```
 
-'''
 ## Tóm lại: 
 Có thể viết Backend bằng Node.js (Express), đưa lên Vercel, kết nối với MongoDB Atlas / Supabase (PostgreSQL), sau đó từ Flutter gọi API đến Vercel để lấy dữ liệu. Đây là mô hình làm đồ án sinh viên rất gọn và hoàn toàn miễn phí!
