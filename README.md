@@ -1,6 +1,6 @@
 ## Mô hình kết nói app Mobile vs Vercel
 Cách phối hợp Vercel trong dự án Flutter + Backend
-'''
+'''powershell
 [Điện thoại người dùng]                  [Đám mây Vercel]
 ┌─────────────────────┐                 ┌──────────────────────┐
 │  Flutter Mobile App │  --(REST API)-->│  Backend (Node.js)   │
